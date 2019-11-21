@@ -136,10 +136,10 @@ If you specify **gym**, **unity**, and **envrionment executable file path** simu
     1. write `.py` in `Algorithms/tf1algos` directory and make the policy inherit from class `Base` or `Policy`, add `from .[name] import [name]` in `Algorithms/tf1algos/__init__.py`
     2. write default configuration in `Algorithms/tf1algos/config.yaml`
     3. register new algorithm in `algos` of `Algorithms/register.py`
-7. set algorithms' hyper-parameters in [Algorithms/tf[x]algos/config.yaml](https://github.com/StepNeverStop/RLs/blob/master/Algorithms/tf2algos/config.yaml)
-8. set training default configuration in [config.py](https://github.com/StepNeverStop/RLs/blob/master/config.py)
-9. change neural network structure in [Nn/tf[x]nn.py](https://github.com/StepNeverStop/RLs/blob/master/Nn/tf2nn.py)
-10. set replay buffer default parameters in [utils/replay_buffer.py](https://github.com/StepNeverStop/RLs/blob/master/utils/replay_buffer.py)
+7. set algorithms' hyper-parameters in [Algorithms/tf1algos/config.yaml](https://github.com/StepNeverStop/RL-TF1/blob/master/Algorithms/tf1algos/config.yaml)
+8. set training default configuration in [config.py](https://github.com/StepNeverStop/RL-TF1/blob/master/config.py)
+9. change neural network structure in [Nn/tf1nn.py](https://github.com/StepNeverStop/RL-TF1/blob/master/Nn/tf1nn.py)
+10. set replay buffer default parameters in [utils/replay_buffer.py](https://github.com/StepNeverStop/RL-TF1/blob/master/utils/replay_buffer.py)
 
 
 ## Installation
@@ -160,7 +160,7 @@ If you specify **gym**, **unity**, and **envrionment executable file path** simu
 ### Install
 
 ```bash
-$ git clone https://github.com/StepNeverStop/RLs.git
+$ git clone https://github.com/StepNeverStop/RL-TF1
 ```
 pip package coming soon.
 
@@ -174,6 +174,6 @@ If you use this repository for you research, please cite:
   year = {2019},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/StepNeverStop/RLs}},
+  howpublished = {\url{https://github.com/StepNeverStop/RL-TF1}},
 }
 ```
