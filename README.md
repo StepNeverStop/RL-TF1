@@ -67,23 +67,23 @@ For now, these algorithms are available:
     - Multi-Agent Deterministic Policy Gradient, MADPG
     - Multi-Agent Twin Delayed Deep Deterministic Policy Gradient, MATD3
 
-|     Algorithms     | Discrete | Continuous | TF 1.x | Command parameter |
-| :----------------: | :------: | :--------: | :----: | :---------------: |
-|         PG         |    √     |     √      |   √    |        pg         |
-|         AC         |    √     |     √      |   √    |        ac         |
-|        A2C         |    √     |     √      |   √    |        a2c        |
-|        PPO         |    √     |     √      |   √    |        ppo        |
-|        DQN         |    √     |            |   √    |        dqn        |
-|     Double DQN     |    √     |            |   √    |       ddqn        |
-| Dueling Double DQN |    √     |            |   √    |       dddqn       |
-|        DPG         |    √     |     √      |   √    |        dpg        |
-|        DDPG        |    √     |     √      |   √    |       ddpg        |
-|        TD3         |    √     |     √      |   √    |        td3        |
-|        SAC         |    √     |     √      |   √    |        sac        |
-| SAC(no V Network)  |    √     |     √      |   √    |     sac_no_v      |
-|       MADPG        |          |     √      |   √    |      ma_dpg       |
-|       MADDPG       |          |     √      |   √    |      ma_ddpg      |
-|       MATD3        |          |     √      |   √    |      ma_td3       |
+|     Algorithms     | Discrete | Continuous | Command parameter |
+| :----------------: | :------: | :--------: | :---------------: |
+|         PG         |    √     |     √      |        pg         |
+|         AC         |    √     |     √      |        ac         |
+|        A2C         |    √     |     √      |        a2c        |
+|        PPO         |    √     |     √      |        ppo        |
+|        DQN         |    √     |            |        dqn        |
+|     Double DQN     |    √     |            |       ddqn        |
+| Dueling Double DQN |    √     |            |       dddqn       |
+|        DPG         |    √     |     √      |        dpg        |
+|        DDPG        |    √     |     √      |       ddpg        |
+|        TD3         |    √     |     √      |        td3        |
+|        SAC         |    √     |     √      |        sac        |
+| SAC(no V Network)  |    √     |     √      |     sac_no_v      |
+|       MADPG        |          |     √      |      ma_dpg       |
+|       MADDPG       |          |     √      |      ma_ddpg      |
+|       MATD3        |          |     √      |      ma_td3       |
 
 ## Getting started
 

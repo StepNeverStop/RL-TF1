@@ -106,3 +106,4 @@ venv.bak/
 test/
 test.py
 .vscode/
+.DS_Store
